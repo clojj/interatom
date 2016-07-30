@@ -1,0 +1,30 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.interatom {
+  opacity: 0.9;
+  top: 40px !important;
+  width: 15% !important;
+  text-align: center;
+  margin-left: -10px !important;
+}
+
+.interatom .message {
+  font-size: 1.2em !important;
+}
+
+.interatom-hidden {
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s ease-in-out;
+}
+
+// Centering for the One themes
+.theme-one-dark-ui,
+.theme-one-light-ui {
+  .interatom {
+    margin-left: auto !important;
+  }
+}

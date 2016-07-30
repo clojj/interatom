@@ -1,0 +1,12 @@
+{
+  "interoConfig": {
+    "title": "Intero configuration",
+    "description": "TODO",
+    "type": "array",
+    "default": [
+    ],
+    "items": {
+      "type": "string"
+    }
+  }
+}

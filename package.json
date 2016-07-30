@@ -1,0 +1,13 @@
+{
+  "name": "interatom",
+  "main": "./lib/interatom.js",
+  "version": "0.0.1",
+  "description": "Intero for Atom",
+  "keywords": [],
+  "repository": "https://github.com/clojj/interatom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
